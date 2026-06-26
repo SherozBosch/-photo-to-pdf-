@@ -26,7 +26,7 @@ class AppTheme {
       useMaterial3: true,
       colorScheme: scheme,
       appBarTheme: const AppBarTheme(centerTitle: true),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 0,
         color: scheme.surfaceContainerHighest,
         shape: RoundedRectangleBorder(
